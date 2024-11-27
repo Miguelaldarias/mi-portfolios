@@ -16,6 +16,7 @@ const Header = () => {
           <p>Ubicación: Madrid, España</p>
           <p>Email: <a href="mailto:miguel@example.com">miguel@example.com</a></p>
           <div className="links">
+            <a href="#projects" className="btn">Ver Proyectos</a>
             <a href={cvPDF} className="btn" download>Descargar CV</a>
             <a href="https://github.com/Miguelaldarias" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30} />

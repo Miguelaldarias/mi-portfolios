@@ -1,4 +1,6 @@
 import React from 'react';
+import logoImage from '../assets/images/Logo.jpg';
+import '../assets/styles/Projects.sass';
 
 const Projects = () => {
   return (
@@ -7,23 +9,10 @@ const Projects = () => {
         <h2>Proyectos</h2>
         <div className="project-list">
           <div className="project">
-            <img src="/images/project1.jpg" alt="Project 1" />
+            <img src={logoImage} alt="Project 1" />
             <h3>Gymsport</h3>
-            <p>Es un proyecto de un gimnasio con todos los comando que puede tener para los clentes y entrenadores. Rutinas, Metricas, planes de entrenamiento, planes utricionales, etc.</p>
-            <a href="#" className="btn">Ver Proyecto</a>
-          </div>
-          <div className="project">
-            <img src="/images/project2.jpg" alt="Project 2" />
-            <h3>Escuela infantil 3.0</h3>
-            <p>En este proycto lo he diseñado por la demanda de una escuela infantil que lo necesitaba y actualmente está trabajando con ella datisfactoriamente. </p>
-            <p>El proyecto está compuesto por una interacción entre padres y madres con las docentes y dirección del centro. Las docentes pueden ir informando en una interfaz clara y sencilla sobre todas necesidades que el alumno ha tenido a tiempo real.</p>
-            <a href="#" className="btn">Ver Proyecto</a>
-          </div>
-          <div className="project">
-            <img src="/images/project2.jpg" alt="Project 3" />
-            <h3>Gestión de una escuela de tenis</h3>
-            <p>Este proyecto ha sido creado por una necesidad que tenia una escula de tenis de un club cercano a mi. Actualmente está funcionando con normalidad. </p>
-            <a href="#" className="btn">Ver Proyecto</a>
+            <p>Es un proyecto de un gimnasio con todos los comando que puede tener para los clientes y entrenadores. Rutinas, métricas, planes de entrenamiento, planes nutricionales, etc. Tecnologías utilizadas desde el principio: React, HTML, CSS, SASS, JavaScript, Python y MySQL.</p>
+            <a href="http://frontend-examen-final.s3-website.eu-north-1.amazonaws.com/" target="_blank" rel="noopener noreferrer" className="btn">Ver Proyecto</a>
           </div>
         </div>
       </div>

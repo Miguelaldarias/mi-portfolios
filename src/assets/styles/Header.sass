@@ -1,0 +1,81 @@
+.hero
+  background: none
+  color: #333
+  height: center
+  display: center
+  align-items: center
+  justify-content: center
+  text-align: center
+  position: relative
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+  border-bottom-left-radius: 0px
+  border-bottom-right-radius: 0px
+  overflow: hidden
+  z-index: 1
+
+  .hero-content
+    display: flex
+    gap: 75px
+    align-items: center
+    justify-content: left
+
+    @media (max-width: 100px)
+      flex-direction: column
+      gap: 20px
+
+  .hero-left
+    .profile-image
+      width: 250px
+      height: 250px
+      border-radius: 50%
+      object-fit: cover
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3)
+
+  .hero-right
+    text-align: left
+
+    h1
+      font-size: 2.5rem
+      font-weight: 700
+      margin-bottom: 10px
+      text-transform: uppercase
+      letter-spacing: 3px
+      color: #333
+      text-shadow: 5px 4px 6px rgba(0, 0, 0, 0.1)
+
+    p
+      font-size: 0.9rem
+      margin: 5px 0
+      color: #666
+
+    .links
+      margin-top: 20px
+      display: flex
+      gap: 15px
+      flex-wrap: wrap
+
+      a
+        color: #333
+        text-decoration: none
+        transition: all 0.3s ease
+
+        &:hover
+          color: #00d4ff
+
+      .btn
+        display: inline-block
+        padding: 2px 32px
+        background: linear-gradient(135deg, #007bff, #00d4ff)
+        color: #ffffff
+        text-decoration: none
+        border-radius: 50px
+        font-weight: bold
+        transition: all 0.4s ease
+        box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3)
+        cursor: pointer
+
+        &:hover
+          background: linear-gradient(135deg, #0056b3, #0099cc)
+          box-shadow: 0 15px 25px rgba(0, 123, 255, 0.4)
+          transform: translateY(-5px)
+

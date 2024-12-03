@@ -1,38 +1,30 @@
 import React, { useState } from 'react';
+import { FaEnvelope, FaCopy } from 'react-icons/fa';
+import '../assets/styles/Contact.sass';
 
 const Contact = () => {
-  const [form, setForm] = useState({ name: '', email: '', message: '' });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
+ 
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:miguelangelaldarias@gmail.com';
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert(`Gracias por contactarme, ${form.name}. Me pondré en contacto contigo pronto.`);
-    setForm({ name: '', email: '', message: '' });
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText('miguelangelaldarias@gmail.com');
+    alert('Correo copiado');
   };
 
   return (
     <section id="contact" className="contact">
       <div className="container">
         <h2>Contacto</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="name">Nombre:</label>
-            <input type="text" id="name" name="name" value={form.name} onChange={handleChange} required />
+        <div className="email-container">
+        <h3>Email:</h3>
+          <p>miguelangelaldarias@gmail.com</p>
+          <div className="email-actions">
+            <FaEnvelope size={30} color="#007bff" onClick={handleEmailClick} title="Enviar correo" style={{ cursor: 'pointer', marginRight: '15px' }} />
+            <FaCopy size={30} color="#007bff" onClick={handleCopyEmail} title="Copiar correo" style={{ cursor: 'pointer' }} />
           </div>
-          <div className="form-group">
-            <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" value={form.email} onChange={handleChange} required />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Mensaje:</label>
-            <textarea id="message" name="message" value={form.message} onChange={handleChange} required />
-          </div>
-          <button type="submit" className="btn">Enviar</button>
-        </form>
+        </div>
       </div>
     </section>
   );

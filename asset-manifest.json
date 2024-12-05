@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mi-portfolios/static/css/main.8dee2ed6.css",
+    "main.js": "/mi-portfolios/static/js/main.71c4e37e.js",
+    "static/media/yo.jpg": "/mi-portfolios/static/media/yo.c89452009a65ed40bc21.jpg",
+    "static/media/Curriculum Miguel Ángel Aldarias Ruiz.pdf": "/mi-portfolios/static/media/Curriculum Miguel Ángel Aldarias Ruiz.cda2700e9bcaeca5ba7e.pdf",
+    "static/media/Logo.jpg": "/mi-portfolios/static/media/Logo.1b744b003d6d45317768.jpg",
+    "index.html": "/mi-portfolios/index.html",
+    "main.8dee2ed6.css.map": "/mi-portfolios/static/css/main.8dee2ed6.css.map",
+    "main.71c4e37e.js.map": "/mi-portfolios/static/js/main.71c4e37e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dee2ed6.css",
+    "static/js/main.71c4e37e.js"
+  ]
+}

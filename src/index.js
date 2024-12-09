@@ -14,7 +14,3 @@ ReactDOM.render(
 );
 
 
-
-
-
-import './assets/styles/main.sass';

@@ -1,6 +1,6 @@
 import React from 'react';
 import profileImage from '../assets/images/yo.jpg';
-import cvPDF from '../assets/Curriculum Miguel Ángel Aldarias Ruiz...pdf';
+import cvPDF from '../assets/Curriculum Miguel Ángel Aldarias Ruiz..pdf';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import '../assets/styles/Header.sass';
 

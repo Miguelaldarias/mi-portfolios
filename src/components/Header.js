@@ -20,9 +20,6 @@ const Header = () => {
           <div className="links">
             <a href="#projects" className="btn">Mis Proyectos</a>
             <a href={cvPDF} className="btn" download>CV</a>
-            <a href="https://github.com/Miguelaldarias" target="_blank" rel="noopener noreferrer">
-              <FaGithub size={30} />
-            </a>
             <a href="https://www.linkedin.com/in/miguelangelaldarias/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={30} />
             </a>

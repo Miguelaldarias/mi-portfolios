@@ -20,6 +20,7 @@ const Educacion = () => {
             <p><strong>Duración:</strong> Febrero 2025 - Actualidad</p>
             <p>Formación profesional como Programador Multiplataforma</p>
           </div>
+          
         </div>
       </div>
     </section>

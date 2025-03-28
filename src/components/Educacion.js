@@ -18,7 +18,7 @@ const Educacion = () => {
           </div>
           <div className="educacion-item">
             <img src={logoiFP} alt="Logo empresa" />
-            <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+            <h3>Desarrollo de Aplicaciones Multiplataforma </h3>
             <p><strong>Institución:</strong> iFP Innovación y Formación Profesional</p>
             <p><strong>Duración:</strong> Febrero 2025 - Actualidad</p>
             <p>Formación profesional como Programador Multiplataforma</p>

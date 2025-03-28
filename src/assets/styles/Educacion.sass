@@ -12,24 +12,28 @@
 
   .educacion-list
     display: flex
-    flex-direction: column
+   
     gap: 40px
+    flex-wrap: wrap
+    justify-content: center
 
   .educacion-item
     background: #ffffff
-    padding: 0px
-    border-radius: 15px
+    padding: 40px
+    border-radius: 50px
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)
+    max-width: 500px
     transition: all 0.3s ease-in-out
+    text-align: center
 
     &:hover
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
       transform: translateY(-5px)
 
     img
-      width: 50%
+      width: 40%
       height: auto
-      border-radius: 50px
+      border-radius: 30px
       margin-bottom: -10px
 
     h3

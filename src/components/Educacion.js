@@ -1,5 +1,6 @@
 import React from 'react';
 import logoviveprogramando from '../assets/images/logoViveProgramando.png';
+import logoiFP from '../assets/images/logoiFP.png';
 import '../assets/styles/Educacion.sass';
 
 const Educacion = () => {
